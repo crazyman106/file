@@ -12,7 +12,7 @@ public class TextUrl {
 
 	public static void main(String[] args) {
 		File file = new File("F:\\aaa.txt");
-		try {
+		try {   
 			// String string = Base64.getEncoder().encodeToString(file2byte(file));
 			String string = file2byte(file);
 			byte[] decode = Base64.getDecoder().decode(string);
